@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-long long int c0[10000] = {1, 0, 1, };
-long long int c1[10000] = {0, 1, 1, };
+long long int c0[50] = {1, 0, 1, };
+long long int c1[50] = {0, 1, 1, };
 
 int fibo(int c){
     for(int i=2; i<=c; i++){
